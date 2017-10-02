@@ -6,4 +6,4 @@ compiler: [ gcc, clang ]
 
 script:
   - ./configure
-  - make
+  - make -j2
