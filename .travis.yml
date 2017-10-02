@@ -140,5 +140,6 @@ before_install:
  - eval "${MATRIX_EVAL}"
 
 script:
+  - $CC --version
   - ./configure
   - make -j2
